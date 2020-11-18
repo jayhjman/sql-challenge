@@ -1,18 +1,18 @@
 # Copy and paste text below and use the following URL to render:
 # https://app.quickdatabasediagrams.com/#/
 #
-Departments as d
+departments as d
 -
 dept_no PK VARCHAR(40)
 dept_name VARCHAR(40) UNIQUE
 
 
-Titles as t
+titles as t
 -
 title_id PK VARCHAR(40)
 title VARCHAR(40) UNIQUE
 
-Employees as e
+employees as e
 -
 emp_no PK INT
 emp_title_id VARCHAR(40) FK >- t.title_id
@@ -22,18 +22,18 @@ last_name VARCHAR(40)
 sex VARCHAR
 hire_date DATE
 
-Dept_Emp as de
+dept_emp as de
 -
 emp_no INT FK >- e.emp_no
 dept_no VARCHAR(40) FK >- d.dept_no
 
-Dept_Manager as dm
+dept_manager as dm
 -
 dept_no VARCHAR(40) FK >- d.dept_no
 emp_no INT FK >- e.emp_no
 
 
-Salaries as s
+salaries as s
 -
 emp_no INT FK >- e.emp_no
 salary INT
