@@ -43,9 +43,21 @@
 
 ## Analysis
 
-1. Analysis 1.
+1. EmployeeSQL [Query 1 results](EmployeeSQL/Results/query-1-result.csv)
 
-1. Analysis 2.
+1. EmployeeSQL [Query 2 results](EmployeeSQL/Results/query-2-result.csv)
+
+1. EmployeeSQL [Query 3 results](EmployeeSQL/Results/query-3-result.csv)
+
+1. EmployeeSQL [Query 4 results](EmployeeSQL/Results/query-4-result.csv)
+
+1. EmployeeSQL [Query 5 results](EmployeeSQL/Results/query-5-result.csv)
+
+1. EmployeeSQL [Query 6 results](EmployeeSQL/Results/query-6-result.csv)
+
+1. EmployeeSQL [Query 7 results](EmployeeSQL/Results/query-7-result.csv)
+
+1. EmployeeSQL [Query 8 results](EmployeeSQL/Results/query-8-result.csv)
 
 ## Execution
 
