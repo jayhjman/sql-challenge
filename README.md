@@ -59,6 +59,10 @@
 
 1. EmployeeSQL [Query 8 results](EmployeeSQL/Results/query-8-result.csv)
 
+1. Bonus [Histogram](Bonus/Results/histogram-salary.png) shows that majority or employees making ~\$40k per year, seems like wealth needs to be distributed a bit better!
+
+1. Bonus [Bar Chart](Bonus/Results/bar-salary-title.png) shows that those with a "Staff" or "Manager" title are making more, if I were an engineer I might ask why they aren't paid more since they make the products!
+
 ## Execution
 
 1. The assumption is that you have a working Python 3.6 environment and:
