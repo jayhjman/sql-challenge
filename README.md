@@ -1,16 +1,25 @@
-# sql-challenge
+# Employee Database Creation and Analysis
 
-- **_EmployeeSQL_** - [WeatherPy.ipynb](WeatherPy/WeatherPy.ipynb) is a set of sql files and seed data to create an employee database that includes employee titles, salaries and departments. We will run a series for sql queries on this database to preview certain data.
+- **_EmployeeSQL_** - A set of SQL files and seed data to create an employee database that includes employee titles, salaries and departments. We will run a series for SQL queries on this database to preview certain data.
 
-- **_Bonus_** - [VacationPy.ipynb](VacationPy/VacationPy.ipynb) is a Jupyter Notebook that uses employee data from the database created from the **_EmployeeSQL_** portion of the analysis. It uses SQLAlchemy in the jupyter notebook to load the data into a pandas dataframe so we can do some analysis on salary amounts and salaries by title.
+- **_Bonus_** - [`Bonus.ipynb`](Bonus/Bonus.ipynb) is a Jupyter Notebook that uses employee data from the database created from the **_EmployeeSQL_** portion of the analysis. It uses SQLAlchemy in the jupyter notebook to load the data into a pandas dataframe so we can do some analysis on salary amounts and salaries by title.
 
 ## Files
 
 - EmployeeSQL
 
+  - [`QuickDBD-Source.txt`](EmployeeSQL/DDL/QuickDBD-Source.txt) - Text file that contains the meta-text for creating an entity relationship diagram using the tool from [Quick Database Diagrams](https://app.quickdatabasediagrams.com/)
+
   - [`create-objects.sql`](EmployeeSQL/DDL/create-objects.sql) - DDL file for creating tables, keys, and relationships.
 
-  - Place Holder
+  - Below you will find the seed data for each of the tables in [`create-objects.sql`](EmployeeSQL/DDL/create-objects.sql), order of importing is important. You may load the data in the same order as the tables are listed in [`create-objects.sql`](EmployeeSQL/DDL/create-objects.sql)
+
+    - [`departments.csv`](EmployeeSQL/Resources/departments.csv)
+    - [`titles.csv`](EmployeeSQL/Resources/titles.csv)
+    - [`employees.csv`](EmployeeSQL/Resources/employees.csv)
+    - [`dept_emp.csv`](EmployeeSQL/Resources/dept_emp.csv)
+    - [`dept_manager.csv`](EmployeeSQL/Resources/dept_manager.csv)
+    - [`salaries.csv`](EmployeeSQL/Resources/salaries.csv)
 
 - Bonus
 
