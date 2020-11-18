@@ -33,11 +33,11 @@
 
 - Salary Histogram Chart
 
-  ![Salary Histogram](EmployeeSQL/Results/histogram-salary.png)
+  ![Salary Histogram](Bonus/Results/histogram-salary.png)
 
 - Salary by Title Bar Chart
 
-  ![Salary by Title Bar](EmployeeSQL/Results/bar-salary-title.png)
+  ![Salary by Title Bar](Bonus/Results/bar-salary-title.png)
 
 ## Analysis
 
