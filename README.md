@@ -31,6 +31,14 @@
 
   ![ERD](EmployeeSQL/Results/QuickDBD-export_ERD.png)
 
+- Salary Histogram Chart
+
+  ![Salary Histogram](EmployeeSQL/Results/histogram-salary.png)
+
+- Salary by Title Bar Chart
+
+  ![Salary by Title Bar](EmployeeSQL/Results/bar-salary-title.png)
+
 ## Analysis
 
 1. Analysis 1.
@@ -42,27 +50,16 @@
 1. The assumption is that you have a working Python 3.6 environment and:
 
    - Jupyter Notebook 6.1.4
-   - matplotlib 3.2.2
    - pandas 1.0.5
-   - numpy 1.18.5
-   - requests 2.24.0
-   - scipy 1.5.0
-   - citipy 0.0.5
-   - gmaps 0.9.0
 
-1. Clone the [`git repository`](https://github.com/jayhjman/python-api-challenge) for this project
-1. Change into the [`repository directory`](https://github.com/jayhjman/python-api-challenge) and then into [`WeatherPy`](WeatherPy/)
-1. In the `WeatherPy` directory create a file called `api_keys.py` and add the following 2 lines:
+1. Clone the [`git repository`](https://github.com/jayhjman/sql-challenge) for this project
+1. Change into the [`repository directory`](https://github.com/jayhjman/sql-challenge) and then into [`WeatherPy`](WeatherPy/)
+1. In the `WeatherPy` directory create a file called `config.py` and add the following 2 lines:
 
    - weather_api_key = "YOUR WEATHER API KEY HERE"
    - g_key = "YOUR GOOGLE MAPS API KEY HERE"
 
    Replace the values in the double quotes above with you version of the key you created in your source environments
-
-1. Repeat the step above for the [`VacationPy`](VacationPy/) directory
-1. Open up Jupyter Notebook now in the top level directory [`repository directory`](https://github.com/jayhjman/python-api-challenge)
-   - Part I - Change directories in the Jupyter Notebook to [`WeatherPy`](WeatherPy/) and execute [`WeatherPy.ipynb`](WeatherPy/WeatherPy.ipynb) (Remember this must be done before Part II as `WeatherPy` produces a file `VacationPy` needs)
-   - Part II - Change directories in the Jupyter Notebook to [`VacationPy`](VacationPy/) and execute [`VacationPy.ipynb`](VacationPy/VacationPy.ipynb)
 
 ## Author
 
