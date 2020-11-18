@@ -8,11 +8,11 @@
 
 - EmployeeSQL
 
-  - [`QuickDBD-Source.txt`](EmployeeSQL/DDL/QuickDBD-Source.txt) - Text file that contains the meta-text for creating an entity relationship diagram using the tool from [Quick Database Diagrams](https://app.quickdatabasediagrams.com/)
+  - [`QuickDBD-Source.txt`](EmployeeSQL/DDL/QuickDBD-Source.txt) - Text file that contains the meta-text for creating an entity relationship diagram using the tool from [Quick Database Diagrams](https://app.quickdatabasediagrams.com/).
 
   - [`create-objects.sql`](EmployeeSQL/DDL/create-objects.sql) - DDL file for creating tables, keys, and relationships.
 
-  - Below you will find the seed data for each of the tables in [`create-objects.sql`](EmployeeSQL/DDL/create-objects.sql), order of importing is important. You may load the data in the same order as the tables are listed in [`create-objects.sql`](EmployeeSQL/DDL/create-objects.sql)
+  - Below you will find the seed data for each of the tables in [`create-objects.sql`](EmployeeSQL/DDL/create-objects.sql), order of importing is important. You may load the data in the same order as the tables are listed in [`create-objects.sql`](EmployeeSQL/DDL/create-objects.sql).
 
     - [`departments.csv`](EmployeeSQL/Resources/departments.csv)
     - [`titles.csv`](EmployeeSQL/Resources/titles.csv)
@@ -20,6 +20,8 @@
     - [`dept_emp.csv`](EmployeeSQL/Resources/dept_emp.csv)
     - [`dept_manager.csv`](EmployeeSQL/Resources/dept_manager.csv)
     - [`salaries.csv`](EmployeeSQL/Resources/salaries.csv)
+
+  - [`analysis.sql`](EmployeeSQL/Analysis-SQL/analysis.sql) - SQL file containing the 8 analysis queries. The file is commented please refer to the numbered sections for a description e.g. (x).
 
 - Bonus
 
