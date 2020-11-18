@@ -1,4 +1,4 @@
-# Copy and paste text below and use the folling URL to render:
+# Copy and paste text below and use the following URL to render:
 # https://app.quickdatabasediagrams.com/#/
 #
 Departments as d
