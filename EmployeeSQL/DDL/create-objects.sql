@@ -51,7 +51,10 @@ CREATE TABLE employee.employees (
 
 CREATE TABLE employee.dept_emp (
     emp_no      INT NOT NULL,
-    dept_no     VARCHAR(40) NOT NULL
+    dept_no     VARCHAR(40) NOT NULL,
+    CONSTRAINT "pk_dept_emp" PRIMARY KEY (
+        "emp_no","dept_no"
+    )
 );
 
 --
@@ -60,7 +63,10 @@ CREATE TABLE employee.dept_emp (
 
 CREATE TABLE employee.dept_manager (
     dept_no     VARCHAR(40) NOT NULL,
-    emp_no      INT NOT NULL
+    emp_no      INT NOT NULL,
+    CONSTRAINT "pk_dept_manager" PRIMARY KEY (
+        "dept_no","emp_no"
+    )    
 );
 
 --
@@ -69,7 +75,10 @@ CREATE TABLE employee.dept_manager (
 
 CREATE TABLE employee.salaries (
     emp_no  INT NOT NULL,
-    salary  INT NOT NULL
+    salary  INT NOT NULL,
+    CONSTRAINT "pk_salaries" PRIMARY KEY (
+        "emp_no"
+    )    
 );
 
 --

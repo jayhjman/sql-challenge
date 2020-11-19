@@ -24,18 +24,18 @@ hire_date DATE
 
 dept_emp as de
 -
-emp_no INT FK >- e.emp_no
-dept_no VARCHAR(40) FK >- d.dept_no
+emp_no INT PK FK >- e.emp_no
+dept_no VARCHAR(40) PK FK >- d.dept_no
 
 dept_manager as dm
 -
-dept_no VARCHAR(40) FK >- d.dept_no
-emp_no INT FK >- e.emp_no
+dept_no VARCHAR(40) PK FK >- d.dept_no
+emp_no INT PK FK >- e.emp_no
 
 
 salaries as s
 -
-emp_no INT FK >- e.emp_no
+emp_no INT PK FK >- e.emp_no
 salary INT
 
 
