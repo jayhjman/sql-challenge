@@ -92,10 +92,10 @@
 1. Change into the [`repository directory`](https://github.com/jayhjman/sql-challenge) and then into [`Bonus`](Bonus/)
 1. In the `Bonus` directory create a file called `config.py` and add the following lines:
 
-   - db_name="<YOUR DB NAME>"
-   - db_user="<YOUR DB USER NAME>"
-   - db_password="<YOUR PASSWORD>"
-   - db_schema="<YOUR SCHEMA NAME>"
+   - db_name="YOUR DB NAME"
+   - db_user="YOUR DB USER NAME"
+   - db_password="YOUR PASSWORD"
+   - db_schema="YOUR SCHEMA NAME"
 
    Replace the values in the double quotes above with your database's specific settings
 
