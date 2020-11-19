@@ -99,7 +99,7 @@
 
    Replace the values in the double quotes above with your database's specific settings
 
-1. Once `config.py` is saved open up Jupyter Notebook in the `Bonus` directy and load [`Bonus.ipynb`](Bonus/Bonus.ipynb)
+1. Once `config.py` is saved open up Jupyter Notebook in the `Bonus` directy and load and execute [`Bonus.ipynb`](Bonus/Bonus.ipynb)
 
 ## Author
 
