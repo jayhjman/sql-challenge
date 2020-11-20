@@ -69,7 +69,7 @@
 
    - [`create-objects.sql`](EmployeeSQL/DDL/create-objects.sql) - please execute the SQL against your database and schema in the order they appear in the file (take note of the database name, user, schema and password for **_Bonus_** part below)
 
-   - Inside of pgadmin4 traverse to the created tables and one in at a time in the order listed import the data from the following CSV files into the named tables:
+   - Inside of pgadmin4 traverse to the created tables and one at a time in the order listed import the data from the following CSV files into the named tables:
 
    - [`departments.csv`](EmployeeSQL/Resources/departments.csv)
    - [`titles.csv`](EmployeeSQL/Resources/titles.csv)
