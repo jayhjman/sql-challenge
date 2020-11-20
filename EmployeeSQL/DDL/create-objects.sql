@@ -29,7 +29,7 @@ CREATE TABLE employee.titles (
 );
 
 --
--- Can create employees table since title tables is not in place
+-- Can create employees table since title table is now in place
 --
 
 CREATE TABLE employee.employees (
